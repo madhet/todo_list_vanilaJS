@@ -1,0 +1,12 @@
+{
+  "name": "todo_list_vanilaJS",
+  "version": "1.0.0",
+  "description": "todo_list_vanilaJS",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "stylus -w ./style.styl -o ./style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

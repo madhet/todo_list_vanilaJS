@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+body #root {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+body #root .containerRight {
+  width: 200px;
+  padding: 20px;
+  background-color: #add8e6;
+  border: 1px solid #000;
+}
+body #root .containerRight .ulTodo_2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+body #root .containerRight .ulTodo_2 .spanDel {
+  position: absolute;
+  right: 0;
+  color: #f00;
+  cursor: pointer;
+}
+body #root .containerRight .inputTask {
+  margin: 5px auto;
+}
+body #root .containerRight .btnTask {
+  margin: 0 auto;
+}
